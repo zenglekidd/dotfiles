@@ -1,0 +1,1 @@
+/Volumes/SSD/Users/zengle/Documents/Nanaimostudio/bitbucket/vimrc/vimrc
