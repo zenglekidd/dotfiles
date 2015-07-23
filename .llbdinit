@@ -1,2 +1,4 @@
 command alias uikit expr @import UIKit
 command alias foundation expr @import Foundation
+command alias slow p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:.1f]
+command alias normal p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:1]
