@@ -3,6 +3,16 @@ dotfiles
 
 dotfiles, personal setups
 
+## Usage (Mac)
+On Terminal, copy/paste below code and press "Enter"
+```
+cd ~/Documents
+git clone git@github.com:zenglekidd/dotfiles.git
+cd ~/Documents/dotfiles
+chmod +x ~/Documents/dotfiles/install.sh
+~/Documents/dotfiles/install.sh
+```
+
 
 ## The idea
 
