@@ -10,9 +10,9 @@ dotfiles, personal setups
 
 2. keep the ~/dotfiles folder under source control using Git, and hosted at GitHub.com
 
-When install a new system, clone the GitHub repository to a new local ~/dotfiles folder and create all the symlinks (currently by hand).
+3. When install a new system, clone the GitHub repository to a new local ~/dotfiles folder and create all the symlinks (currently by hand).
 
-3. Whenever edit one of the configuration files, just commit and push to GitHub, and then pull in every other machine.
+4. Whenever edit one of the configuration files, just commit and push to GitHub, and then pull in every other machine.
 
 This is the example content of ~/dotfiles folder:
 
