@@ -100,4 +100,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias work='cd Documents/Repos/Teamspace-iOS'
+alias Work='cd Documents/Repos/Teamspace-iOS'
