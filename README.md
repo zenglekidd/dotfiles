@@ -1,10 +1,9 @@
 dotfiles
 ========
+personal setups
 
-dotfiles, personal setups
-
-## Usage (Mac)
-On Terminal, copy/paste below code and press "Enter"
+## Install
+On Terminal, copy/paste below code
 ```
 cd ~/Documents
 git clone git@github.com:zenglekidd/dotfiles.git
@@ -12,6 +11,13 @@ cd ~/Documents/dotfiles
 chmod +x ~/Documents/dotfiles/install.sh
 ~/Documents/dotfiles/install.sh
 ```
+
+## Usage
+Restart `Terminal`
+
+## Update 
+1. Pull the lastest git repo
+2. Restart `Terminal`
 
 
 ## The idea
