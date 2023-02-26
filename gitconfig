@@ -1,0 +1,14 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Le Zeng
+	email = zengle@microsoft.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
