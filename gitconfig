@@ -12,3 +12,4 @@
 	ci = commit
 	st = status
 	hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	di = diff
