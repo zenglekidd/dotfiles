@@ -2,8 +2,11 @@ dotfiles
 ========
 personal setups
 
+## Usage
+![output 2](https://user-images.githubusercontent.com/871772/222487285-b25f013d-3aab-47d8-97f1-be6f1f199270.gif)
+
 ## Install
-On Terminal, copy/paste below code
+1。 On Terminal, copy/paste below code
 ```
 cd ~/Documents
 git clone git@github.com:zenglekidd/dotfiles.git
@@ -11,9 +14,7 @@ cd ~/Documents/dotfiles
 chmod +x ~/Documents/dotfiles/install.sh
 ~/Documents/dotfiles/install.sh
 ```
-
-## Usage
-Restart `Terminal`
+2。Open a New Terminal
 
 ## Update 
 1. Pull the lastest git repo
