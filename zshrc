@@ -100,8 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias Work='cd Documents/Repos/Teamspace-iOS'
 alias TorusClient='export DYLD_FALLBACK_LIBRARY_PATH="/Library/Scripts/Torus/Mac/lib:/lib:/usr/local/lib:/usr/lib:";/usr/local/bin/pwsh -NoLogo -NoExit -File /Library/Scripts/Torus/TorusClient.ps1'
 alias TorusClientSudo='export DYLD_FALLBACK_LIBRARY_PATH="/Library/Scripts/Torus/Mac/lib:/lib:/usr/local/lib:/usr/lib:";sudo /usr/local/bin/pwsh -NoLogo -NoExit -File /Library/Scripts/Torus/TorusClient.ps1'
 alias torus='export DYLD_FALLBACK_LIBRARY_PATH="/Library/Scripts/Torus/Mac/lib:/lib:/usr/local/lib:/usr/lib:";/usr/local/bin/pwsh -NoLogo -NoExit -File /Library/Scripts/Torus/TorusClient.ps1'
 alias movToGIF='ffmpeg -i in.mov -pix_fmt rgb8 -r 10 output.gif && gifsicle -O3 output.gif -o output.gif'
+alias dotfiles='cd ~/Documents/dotfiles'
+alias work='cd ~/Documents/Repos/Teamspace-iOS'
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+alias codez='code ~/.zshrc'
+alias codeg='code ~/.gitconfig'
